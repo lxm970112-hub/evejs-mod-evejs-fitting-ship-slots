@@ -1,0 +1,40 @@
+{
+  "author": {
+    "id": "au-mw7jbtnpunkx",
+    "keyId": "c9a95855e5dc",
+    "name": "雪风"
+  },
+  "category": "工具",
+  "changelog": "",
+  "conflicts": [],
+  "delisted": false,
+  "description": "让装配校验读全 20 个 canFitShipType 槽：修复抹香鲸级装不上大型压缩装置（船型写在 canFitShipType20），同时修正 Standup 建筑模块 13–17 槽被漏掉的问题。只追加一层包装，不改原函数体。",
+  "displayName": "装配槽位 13–20 修复",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/lxm970112-hub/evejs-mod-evejs-fitting-ship-slots/releases/download/v1.0.0/evejs-fitting-ship-slots-1.0.0.zip"
+    }
+  ],
+  "evejsVersions": [
+    "261028.x"
+  ],
+  "featured": false,
+  "highlights": [],
+  "history": [],
+  "id": "evejs-fitting-ship-slots",
+  "publishedAt": "2026-11-10",
+  "readme": [
+    "给服务端装配校验补上 `canFitShipType13–20`。只走启动器的注入总线（`__evejsMods.register`），\n服务端磁盘文件一个字节不改。"
+  ],
+  "repo": "https://github.com/lxm970112-hub/evejs-mod-evejs-fitting-ship-slots",
+  "requiresRestart": true,
+  "sha256": "e44c024daed90cb0f5f4625513a43902726a97aec65d6b1105e4c5e3270f593e",
+  "sizeBytes": 14740,
+  "tags": [
+    "装配",
+    "修复"
+  ],
+  "version": "1.0.0"
+}
